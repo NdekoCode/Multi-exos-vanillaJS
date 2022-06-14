@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "Indigo";
+  src: url("../fonts/IndigoRegular-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Indigo", "Segoe UI", sans-serif;
   box-sizing: border-box;
 }
 body {
