@@ -11,7 +11,7 @@ btn.addEventListener("click", function () {
 
   if (aleatNumber === userValue) {
     output.style.color = "#50d19d";
-    output.innerText = `Bravo vous avez trouvez le nombre`;
+    output.innerText = `🥳🥳🥳 Bravo vous avez trouvez le nombre`;
     tentative = 4;
     aleatNumber = parseInt(Math.random() * 10 + 1);
   } else if (aleatNumber < userValue) {
@@ -23,7 +23,7 @@ btn.addEventListener("click", function () {
   }
 
   if ((tentative === 4 || tentative < 1) && aleatNumber !== userValue) {
-    output.innerText = `Game Over ${aleatNumber}, Recommencez`;
+    output.innerText = `💀Game Over ${aleatNumber}, Recommencez`;
     tentative = 4;
     aleatNumber = parseInt(Math.random() * 10 + 1);
   }
