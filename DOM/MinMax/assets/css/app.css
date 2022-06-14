@@ -1,3 +1,16 @@
+*,
+*::before,
+*::after {
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
 .card {
   position: absolute;
   left: 50%;
